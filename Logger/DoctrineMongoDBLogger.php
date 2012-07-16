@@ -57,7 +57,7 @@ class DoctrineMongoDBLogger
      */
     public function logQuery(array $query)
     {
-        $this->queries[] = $query;
+//        $this->queries[] = $query;
         $this->processed = false;
 
         if (null !== $this->logger) {
